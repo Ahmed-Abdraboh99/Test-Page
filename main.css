@@ -1,0 +1,83 @@
+body{
+    background-color:#bcbeba;
+    background-image:url(img/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    margin:15px;
+    padding:1px;
+}
+h1{
+    padding:20px;
+    margin:10px;
+    text-align: center;
+    font-size: 65px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#c92711;
+    background-color: rgba(102, 102, 240, 0.2);
+   
+}
+div a{
+    font-size: 30px;
+    font-family:sans-serif;
+    color:black;
+    text-decoration: none;
+    
+}
+.nav{
+    background-color:  rgba(240, 200, 240, 0.2);
+    margin-left:30%;
+}
+p{
+    background-color:  rgba(240, 200, 240, 0.2);
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 30px;
+}
+h2{
+    background-color:  rgba(240, 200, 240, 0.2);
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+.foot{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding:5px;
+
+}
+#sc ,#mc ,#wel{
+   font-size: 50px;
+   font-weight: bolder;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color:red;
+   padding:12px;
+   
+}
+#sc{
+    position: relative;
+    left:40%;
+    cursor: pointer;
+    
+}
+#mc{
+    position: relative;
+    left:35%;
+    width:600px;
+    height:300px;
+}
+#wel{
+    font-size: 30px;
+    font-weight: bolder;
+    color:black;
+}
+ p{
+    margin: 0px;
+}
+div a:hover{
+    text-decoration: underline;
+    color:blue;
+}
